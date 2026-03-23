@@ -382,46 +382,6 @@
             box-shadow: 0 15px 35px var(--accent-glow);
         }
 
-        .hero-image-wrapper {
-            flex: 0.8;
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .hero-img {
-            width: 100%;
-            max-width: 450px;
-            border-radius: 20px;
-            position: relative;
-            z-index: 2;
-            border: 1px solid var(--border-color);
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-        }
-
-        .hero-image-wrapper::after {
-            content: '';
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            right: -20px;
-            bottom: -20px;
-            border: 2px solid var(--accent);
-            border-radius: 20px;
-            z-index: 0;
-            transition: var(--transition);
-            max-width: 450px;
-        }
-
-        .hero-image-wrapper:hover::after {
-            top: 15px;
-            left: 15px;
-            right: -15px;
-            bottom: -15px;
-            border-color: var(--accent-blue);
-        }
-
         .glow-effect {
             position: absolute;
             top: 50%;
